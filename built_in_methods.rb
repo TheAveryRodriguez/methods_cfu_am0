@@ -10,18 +10,27 @@
 
 
 "Hello World".include?("Hello")
+# The include? method is called on the string object "Hello World" to check and see if it contains the string "Hello"
+# The return value is true
 
 
 "Hello World".end_with?("Hello")
+# The end_with? method is called on the string object "Hello World" to check and see if it ends with the string "Hello"
+# The return value is false
 
 
 "Hello World".end_with?("rld")
-
+# The end_with? method is called on the string object "Hello World" to check and see if it ends with the string "rld"
+# The return value is true
 
 12.even?
+# The even? method is called on the integer, 12, to check and see if it is an even number.
+# The return value is true
 
 
 18.next
+# The next method is called on the inteeger, 18, it has one job which is to return the next number.
+# The return value is 19
 
 
 
